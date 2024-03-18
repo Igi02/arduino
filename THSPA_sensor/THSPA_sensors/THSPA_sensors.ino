@@ -13,7 +13,6 @@ int sound_sensor = A2;            // Assign to pin A2
 
 void setup() {
   Wire.begin();
-  Serial.begin(9600);
   Environment.begin();
   Pressure.begin();
 

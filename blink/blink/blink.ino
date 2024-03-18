@@ -1,10 +1,8 @@
 // Define the LED pin
-int ledPin = 13;
 int dotLength = 1000;
 
 void setup() {
   // Set the LED pin as an output
-  pinMode(ledPin, OUTPUT);
 
   // Start serial communication
   Serial.begin(9600);
